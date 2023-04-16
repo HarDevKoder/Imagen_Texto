@@ -1,0 +1,42 @@
+/* ---------------------------------------------- */
+/* --- Estilos Generales ------------------------ */
+/* ---------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ---------------------------------------------- */
+/* --- Estilos Escritorio ----------------------- */
+/* ---------------------------------------------- */
+.caja{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    margin-top: 20px;
+    border-top: 6px solid green;
+}
+.caja .titulo{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.caja img{
+    width: 250px;
+    float: left;
+    margin-right: 10px;
+}
+p{
+    margin: 10px;
+    text-align: justify;
+}
+/* ---------------------------------------------- */
+/* --- Estilos Móvil ---------------------------- */
+/* ---------------------------------------------- */
+@media screen and (max-width:800px){
+    .caja img{
+     width: 100%;
+     margin-bottom: 15px;
+    }
+    
+}
